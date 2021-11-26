@@ -1,0 +1,115 @@
+//resume
+
+  .resume .resume-container {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    @media screen and (min-width: 764px) {
+      flex-direction: row;
+    }
+    .working, .education {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 2rem;
+      @media screen and (min-width: 764px) {
+        width: 50%;
+        margin-left: 2rem;
+      }
+      h2 {
+        margin-bottom: 2rem;
+        text-align: center;
+        color: #000;
+      }
+    }
+  }
+/* 7.1 = WORKING TIMELINE */
+  .resume .column-left {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    border-right: 2px solid #eee;
+    text-align: right;
+    @media screen and (min-width:764px) {
+      padding-left: 2.5rem;
+    }
+  }
+  /*.resume .column-left .icon {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #3b414c;
+    position: absolute;
+    top: -40px;
+    right: calc(5% - 6px);
+  }*/
+  .resume .item {
+    margin-bottom: 2rem;
+    position: relative;
+    .sm-subtitle {
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: 1px;
+      color: #000;
+    }
+    .date {
+      font-size: 13px;
+      font-family: 'Dosis', sans-serif;
+      color: #3b414c;
+      margin-bottom: 16px;
+      display: inline-block;
+    }
+    p {
+      line-height: 27px;
+      margin: 0;
+      font-size: 14px;
+      color: #555;
+    }
+  }
+
+  .resume .column-left .item:after {
+    left: calc(100% + 2rem);
+  }
+  .resume .column-right .item:after {
+    left: calc(100% + 2rem);
+  }
+  .resume .item:after {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -54px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #888;
+  }
+  
+/* 7.2 = EDUCATION TIMELINE */
+.resume .column-right {
+  width: 100%;
+  padding-top: 1rem;
+  padding-left: 2.5rem;
+  padding-right: 2rem;
+  text-align: right;
+  border-right: 2px solid #eee;
+}
+/*.resume .column-right .icon {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  background: #3b414c;
+  position: absolute;
+  top: -40px;
+  left: calc(5% - 6px);
+}*/
+
