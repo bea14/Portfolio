@@ -1,0 +1,82 @@
+//home
+.home-page {
+  background: $primary-color;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  @media screen and (min-width: 764px) {
+    flex-direction: row;
+    height: 70vh;
+  }
+  @media screen and (min-width: 964px) {
+    flex-direction: row;
+    height: 100vh;
+  }
+  .home-left {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 2rem;
+    @media screen and (min-width: 764px) {
+      width: 50%;
+      align-items: center;
+      justify-content: center;
+      margin-left: 1rem;
+      margin-top: 0;
+    }
+  }
+  .home-right {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    img  {
+      border-radius: 20px;
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      -ms-border-radius: 20px;
+      -o-border-radius: 20px;
+}
+    @media screen and (min-width: 764px) {
+      width: 50%;
+      margin-right: 0.5rem;		
+      margin-top: 0;
+    }
+  }
+}
+
+.animated-subtitle{
+  white-space: nowrap;/*preventthetextwrap*/
+  overflow: hidden;
+  font-size: 18px;
+  color: #fff;
+  border-right: solid 3px #fff;/*thecursor*/
+  animation: animtext 5s steps(10,end) 1s 1 normal both, animcursor 600ms steps(10,end) infinite;
+  -webkit-animation: animtext 5s steps(10,end) 1s 1 normal both, animcursor 600ms steps(10,end) infinite;
+  @media screen and (min-width: 764px) {
+    font-size: 28px;
+  }
+}
+
+@keyframes animtext{
+  from{width: 0;}
+  to{width: 100px;}
+}
+@keyframes animcursor{
+  from{border-right-color: #fff;}
+  to{border-right-color: transparent;}
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+}
+
+#resume{
+  background-color: #FFF;
+  .title {
+    color: #000;
+  }
+}

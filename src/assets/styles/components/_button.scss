@@ -1,0 +1,67 @@
+//about
+.about-info button, .about-menu button{
+    background-color: $tertiary-color;
+    padding: 0.4rem 1rem;
+    border-radius: $border-radius-m;
+    &:hover {
+      background-color : lighten($tertiary-color,10%);
+      transform: scale(1.2);
+    }
+  }
+//home et portfolio
+button {
+    margin-top: 1.5rem;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    background-color: $tertiary-color;
+    border-color: $tertiary-color;
+    border-radius:$border-radius-s;
+    @media screen and (min-width: 764px) {
+      margin-top: 5rem;
+      & + button {       
+        margin: 0 1em;
+      }
+    }    
+}
+
+//contact
+.form-group .button {
+    width: auto;
+    padding: 8px 22px;
+    color: #fff;
+    background: #333;
+    margin-bottom: 0;
+    font-size: 14px;
+    :hover {
+        background: #FFF;
+        color: #333;
+        border-color: #333;
+      }
+  }
+
+//Scroll to top
+#back2Top {
+  width: 40px;
+  line-height: 40px;
+  overflow: hidden;
+  z-index: 999;
+  //display: none;
+  cursor: pointer;
+  -moz-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+  position: fixed;
+  bottom: 50px;
+  right: 0;
+  background-color: #DDD;
+  color: #555;
+  text-align: center;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+#back2Top:hover:hover {
+  background-color: #DDF;
+  color: #000;
+}

@@ -1,0 +1,45 @@
+.monportfolio {
+    &-content{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 1em 0;
+        @media screen and (min-width: 764px){            
+            flex-direction: row;
+        }
+    }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 1em 0;
+    &-image{
+        width: 100%;
+        border-radius: 5px;
+        margin-top: 50px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    &-details {
+        p {
+            padding: 1em 0;
+        }
+    }
+    .returnback {
+        margin : 4em auto;
+    }
+    @media screen and (min-width: 764px) {
+        &-image{
+            height: auto;
+            width: 50%;
+            margin: auto 60px auto 0;
+        }
+        &-details{
+            height: auto;
+            width: 50%;
+            margin-right: 60px;
+        }
+      }
+}
+    

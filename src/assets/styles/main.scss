@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+//2. configuration et utilitaires
+@import 
+    './abstracts/variables';
+
+//2. Base
+@import 
+    './base/typography',
+    './base/reset',
+    './base/base';
+
+//3. Vendors
+
+//4.Layout styles
+@import 
+    './layout/footer',
+   './layout/header',
+    './layout/main';
+
+//5. Page-specific styles
+@import 
+    './pages/about',
+    './pages/blog',
+    './pages/contact',
+    './pages/home',
+    './pages/page',
+    './pages/portfolio',
+    './pages/resume',
+    './pages/sidebar',
+    './pages/monportfolio',
+    './pages/mentionslegales',
+    './pages/challenges';
+    
+//6. Components
+@import 
+    './components/button',
+    './components/breadcrumb';

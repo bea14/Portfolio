@@ -1,0 +1,103 @@
+//header
+.header {
+    background-color: transparent;
+    //background-color: white;
+    //position: fixed;
+    width: 100%;
+    //width: 1367px;
+    padding: 20px 0px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    box-shadow: 0px 0px 15px #333;
+    color: white;
+    height: 150px;
+    .header-container {
+        //max-width: 1140px;
+        display: flex;
+        flex-direction: row;
+        margin-right: auto;
+        margin-left: auto;
+        position: relative;
+        border: 0;
+        font-size: 100%;
+        outline: 0;
+        padding: 0;
+        height: 100%;
+        /*.logo {
+            width: 7%;
+            position: relative;
+            min-height: 1px;
+            display: flex;
+        }*/      
+    } 
+}
+
+nav {
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    .nav-wrapper {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        input[type=chechbox]:checked + ul {
+            display: flex;
+            flex-flow: column wrap;
+            max-height: 500px;
+    opacity: 1;
+    visibility: visible;
+        }
+        input[type=checkbox]{
+            display: none;
+        }
+        label {
+            display: inline-block;
+            width: 100%;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        ul {
+            display: none;
+            list-style: none;
+            background-color: lightblue;
+            margin: 0;
+    max-height: 0;
+    opacity: 0; /**/
+    overflow: hidden;
+    padding: 0 2em;
+    transition: margin .5s ease-in-out, max-height .5s ease-in-out, opacity .3s .1s ease-in-out;
+    visibility: hidden; 
+            li {
+                flex: 1 1 auto;
+                text-align: left;
+            }
+            a {
+                padding: 1rem;
+                border-bottom: none;
+                background-color: lightblue;
+            }
+        }
+    }
+    .social {
+        margin-top: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        img {
+            padding: 0 1rem;
+        }
+    }
+}
+nav > div > ul li:hover {
+    display: flex;
+    flex-flow: column wrap;
+}
+
