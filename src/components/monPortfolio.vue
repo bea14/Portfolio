@@ -2,9 +2,11 @@
   <section class="page-content" id="portfolio-container">
     <nav aria-label="breadcrumb">
       <ul class="breadcrumb">
-        <li class="breadcrumb-item">Vous êtes ici : </li>
+        <li class="breadcrumb-item">Vous êtes ici :</li>
         <li class="breadcrumb-item"><a href="/">Accueil</a></li>
-        <li class="breadcrumb-item active" aria-current="page">{{ this.$route.params.title }}</li>
+        <li class="breadcrumb-item active" aria-current="page">
+          {{ this.$route.params.title }}
+        </li>
       </ul>
     </nav>
     <h1 class="title">{{ this.$route.params.title }}</h1>
@@ -41,8 +43,12 @@
                   <span class="card-text-name">BAPADOZ</span>
                   <span class="details">Site Internet/Joomla</span>
                   <span class="voir-plus">
-                    <router-link :to="{ name: 'bapadoz', params: { title: 'Site Bapadoz'}}"
-                    ><span class="voir-plus-txt">Voir plus</span>
+                    <router-link
+                      :to="{
+                        name: 'bapadoz',
+                        params: { title: 'Site Bapadoz' },
+                      }"
+                      ><span class="voir-plus-txt">Voir plus</span>
                     </router-link>
                   </span>
                 </div>
@@ -72,8 +78,14 @@
                   >
                   <span class="details">Site Internet/Joomla</span>
                   <span class="voir-plus">
-                    <router-link :to="{ name: 'devdurable', params: { title: 'Site Developpement Durable et Badminton'}}"
-                    ><span class="voir-plus-txt">Voir plus</span>
+                    <router-link
+                      :to="{
+                        name: 'devdurable',
+                        params: {
+                          title: 'Site Developpement Durable et Badminton',
+                        },
+                      }"
+                      ><span class="voir-plus-txt">Voir plus</span>
                     </router-link>
                   </span>
                 </div>
@@ -102,8 +114,12 @@
                 <div class="card-footer-details">
                   <span class="details">Site vitrine/Wix</span>
                   <span class="voir-plus">
-                    <router-link :to="{ name: 'mybikewix', params: { title:' MyBike - Wix'}}"
-                    ><span class="voir-plus-txt">Voir plus</span>
+                    <router-link
+                      :to="{
+                        name: 'mybikewix',
+                        params: { title: ' MyBike - Wix' },
+                      }"
+                      ><span class="voir-plus-txt">Voir plus</span>
                     </router-link>
                   </span>
                 </div>
@@ -132,8 +148,12 @@
                 <div class="card-footer-details">
                   <span class="details">Site e-commerce/Shopify</span>
                   <span class="voir-plus">
-                    <router-link :to="{ name: 'mybikeshopify', params: { title: 'MyBike - Shopify' }}"
-                    ><span class="voir-plus-txt">Voir plus</span>
+                    <router-link
+                      :to="{
+                        name: 'mybikeshopify',
+                        params: { title: 'MyBike - Shopify' },
+                      }"
+                      ><span class="voir-plus-txt">Voir plus</span>
                     </router-link>
                   </span>
                 </div>
@@ -163,8 +183,9 @@
                 <div class="card-footer-details">
                   <span class="details">Site Internet / HTML & CSS</span>
                   <span class="voir-plus">
-                    <router-link :to="{ name: 'reservia', params: { title: 'Reservia' }}"
-                    ><span class="voir-plus-txt">Voir plus</span>
+                    <router-link
+                      :to="{ name: 'reservia', params: { title: 'Reservia' } }"
+                      ><span class="voir-plus-txt">Voir plus</span>
                     </router-link>
                   </span>
                 </div>
@@ -195,8 +216,12 @@
                 <div class="card-footer-details">
                   <span class="details">Site Internet / HTML & SCSS</span>
                   <span class="voir-plus">
-                    <router-link :to="{ name: 'ohmyfood', params: { title: 'Oh My Food !' }}"
-                    ><span class="voir-plus-txt">Voir plus</span>
+                    <router-link
+                      :to="{
+                        name: 'ohmyfood',
+                        params: { title: 'Oh My Food !' },
+                      }"
+                      ><span class="voir-plus-txt">Voir plus</span>
                     </router-link>
                   </span>
                 </div>
@@ -230,8 +255,9 @@
                     >Site e-commerce / HTML, SCSS et JS</span
                   >
                   <span class="voir-plus">
-                    <router-link :to="{ name: 'orinoco', params: { title: 'Orinoco' }}"
-                    ><span class="voir-plus-txt">Voir plus</span>
+                    <router-link
+                      :to="{ name: 'orinoco', params: { title: 'Orinoco' } }"
+                      ><span class="voir-plus-txt">Voir plus</span>
                     </router-link>
                   </span>
                 </div>
@@ -265,8 +291,12 @@
                 <div class="card-footer-details">
                   <span class="details">API / JS</span>
                   <span class="voir-plus">
-                    <router-link :to="{ name: 'piiquante', params: { title: 'Piiquante' }}"
-                    ><span class="voir-plus-txt">Voir plus</span>
+                    <router-link
+                      :to="{
+                        name: 'piiquante',
+                        params: { title: 'Piiquante' },
+                      }"
+                      ><span class="voir-plus-txt">Voir plus</span>
                     </router-link>
                   </span>
                 </div>
@@ -298,8 +328,12 @@
                 <div class="card-footer-details">
                   <span class="details">Réseau Social d'entreprise / JS</span>
                   <span class="voir-plus">
-                    <router-link :to="{ name: 'groupomania', params: { title: 'Groupomania' }}"
-                    ><span class="voir-plus-txt">Voir plus</span>
+                    <router-link
+                      :to="{
+                        name: 'groupomania',
+                        params: { title: 'Groupomania' },
+                      }"
+                      ><span class="voir-plus-txt">Voir plus</span>
                     </router-link>
                   </span>
                 </div>
@@ -326,8 +360,12 @@
                 <div class="card-footer-details">
                   <span class="details">Photoshop</span>
                   <span class="voir-plus">
-                    <router-link :to="{ name: 'pochetteCD', params: { title: 'Pochette CD' }}"
-                    ><span class="voir-plus-txt">Voir plus</span>
+                    <router-link
+                      :to="{
+                        name: 'pochetteCD',
+                        params: { title: 'Pochette CD' },
+                      }"
+                      ><span class="voir-plus-txt">Voir plus</span>
                     </router-link>
                   </span>
                 </div>
@@ -354,8 +392,12 @@
                 <div class="card-footer-details">
                   <span class="details">Photoshop</span>
                   <span class="voir-plus">
-                    <router-link :to="{ name: 'pochetteCD2', params: { title: 'Pochette CD 2' }}"
-                    ><span class="voir-plus-txt">Voir plus</span>
+                    <router-link
+                      :to="{
+                        name: 'pochetteCD2',
+                        params: { title: 'Pochette CD 2' },
+                      }"
+                      ><span class="voir-plus-txt">Voir plus</span>
                     </router-link>
                   </span>
                 </div>
@@ -366,17 +408,17 @@
       </div>
     </div>
     <section class="returnBack">
-        <a style="cursor:pointer" @click="$router.back()">
-          &lt; Retour à la page principale
-        </a>
-      </section>
+      <a style="cursor: pointer" @click="$router.back()">
+        &lt; Retour à la page principale
+      </a>
+    </section>
   </section>
 </template>
 
 <script>
 export default {
   name: "monPortfolio",
-  props: ['title'],
+  props: ["title"],
   methods: {
     /*filterSelection(c) {
       var x, i;
@@ -413,31 +455,37 @@ export default {
     },*/
     filterSelection(el) {
       var div = document.getElementsByClassName(el);
-      var div1 = document.getElementsByClassName('item-web');
-      var div2 = document.getElementsByClassName('item-api');
-      var div3 = document.getElementsByClassName('item-design');
-      if (el == 'item-web') {
+      var div1 = document.getElementsByClassName("item-web");
+      var div2 = document.getElementsByClassName("item-api");
+      var div3 = document.getElementsByClassName("item-design");
+      if (el == "item-web") {
         for (let i = 0; i < div2.length; i++) {
-          div2[i].style.display = div2[i].style.display == "block" ? "none" : "none";
+          div2[i].style.display =
+            div2[i].style.display == "block" ? "none" : "none";
         }
         for (let i = 0; i < div3.length; i++) {
-          div3[i].style.display = div3[i].style.display == "block" ? "none" : "none";
+          div3[i].style.display =
+            div3[i].style.display == "block" ? "none" : "none";
         }
       }
-      if (el == 'item-api') {
+      if (el == "item-api") {
         for (let i = 0; i < div1.length; i++) {
-          div1[i].style.display = div1[i].style.display == "block" ? "none" : "none";
+          div1[i].style.display =
+            div1[i].style.display == "block" ? "none" : "none";
         }
         for (let i = 0; i < div3.length; i++) {
-          div3[i].style.display = div3[i].style.display == "block" ? "none" : "none";
+          div3[i].style.display =
+            div3[i].style.display == "block" ? "none" : "none";
         }
       }
-      if (el == 'item-design') {
+      if (el == "item-design") {
         for (let i = 0; i < div2.length; i++) {
-          div2[i].style.display = div2[i].style.display == "block" ? "none" : "none";
+          div2[i].style.display =
+            div2[i].style.display == "block" ? "none" : "none";
         }
         for (let i = 0; i < div1.length; i++) {
-          div1[i].style.display = div1[i].style.display == "block" ? "none" : "none";
+          div1[i].style.display =
+            div1[i].style.display == "block" ? "none" : "none";
         }
       }
       /*if (el == 'all') {
@@ -452,7 +500,8 @@ export default {
         }
       }*/
       for (let i = 0; i < div.length; i++) {
-      div[i].style.display = div[i].style.display == "block" ? "none" : "block";
+        div[i].style.display =
+          div[i].style.display == "block" ? "none" : "block";
       }
     },
   },

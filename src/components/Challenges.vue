@@ -5,7 +5,7 @@
       <p>Vous trouverez ici mes solutions à divers challenges :</p>
       <div class="challenge-table">
         <p>
-          HTML/CSS : 
+          HTML/CSS :
           <a href="https://bea14.github.io/FrontendMentor/" target="_blank"
             >FrontendMentor
           </a>

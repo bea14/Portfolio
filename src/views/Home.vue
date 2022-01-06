@@ -8,18 +8,13 @@
           <span class="typed-cursor">|</span>
           <br />
           <span class="animated-subtitle">
-            HTML / CSS / Javascript,
-            VueJS / NodeJS
+            HTML / CSS / Javascript, VueJS / NodeJS
           </span>
         </h3>
         <a href="#contact"><button>Me contacter</button></a>
       </div>
       <div class="home-right">
-        <img
-          src="../assets/img/BMB_opt.jpg"
-          alt="ma photo"
-          title="ma photo"
-        />
+        <img src="../assets/img/BMB_opt.jpg" alt="ma photo" title="ma photo" />
       </div>
     </section>
     <section id="about">
@@ -47,9 +42,7 @@
       <Contact />
     </section>
     <!-- Bouton Scroll To Top-->
-    <router-link to="#home"
-      id="back2Top">&#10148;</router-link
-    >
+    <router-link to="#home" id="back2Top">&#10148;</router-link>
   </div>
 </template>
 
@@ -67,10 +60,10 @@ export default {
     Portfolio,
     Contact,
   },
-  methods: { 
+  methods: {
     scrollToTop() {
-        window.scrollTo(0,0);
-    }
-  }
+      window.scrollTo(0, 0);
+    },
+  },
 };
 </script>

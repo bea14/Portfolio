@@ -26,14 +26,17 @@
               Trésorière comptable - Association BAPADOZ
             </h6>
             <span class="date">Septembre 2015 - Present</span>
-			<p>écritures comptables, encaissements/décaissements, préparation des rapports financiers annuels, gestion des inscriptions, dossiers de subvention, dossiers de partenariat
-Macros et tableaux croisés dynamiques Microsoft Excel
-Logiciel SAGE</p>
+            <p>
+              écritures comptables, encaissements/décaissements, préparation des
+              rapports financiers annuels, gestion des inscriptions, dossiers de
+              subvention, dossiers de partenariat Macros et tableaux croisés
+              dynamiques Microsoft Excel Logiciel SAGE
+            </p>
           </div>
           <div class="item">
             <h6 class="sm-subtitle">Suppléante UREC, REctorat</h6>
             <span class="date">Septembre 2012 - Juin 2015</span>
-			<p>Remplacement dans des écoles primaires de la MS au CM2</p>
+            <p>Remplacement dans des écoles primaires de la MS au CM2</p>
           </div>
           <!-- WORKING TIME LINE ITEM -->
           <div class="item">
@@ -41,8 +44,10 @@ Logiciel SAGE</p>
               Initiatrice Premiers Secours, Croix Rouge Française
             </h6>
             <span class="date">Février 2010 - Novembre 2010</span>
-			<p>Enseignement des gestes de premiers secours lors des JAPD 
-				(Journées d'Appel et de Préparation à la Défense)</p>
+            <p>
+              Enseignement des gestes de premiers secours lors des JAPD
+              (Journées d'Appel et de Préparation à la Défense)
+            </p>
           </div>
           <!-- WORKING TIME LINE ITEM -->
           <div class="item">
@@ -52,7 +57,7 @@ Logiciel SAGE</p>
         </div>
       </div>
       <div class="education">
-        <div class="column-right">          
+        <div class="column-right">
           <h2>Formations</h2>
           <!--<span class="icon">
 					<i class="fa fa-book" aria-hidden="true"></i>

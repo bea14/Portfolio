@@ -34,7 +34,12 @@
                   <span class="card-text-name">MyBike</span>
                   <span class="details">Site vitrine/Wix</span>
                   <span class="voir-plus">
-                    <router-link :to="{ name: 'mybikewix', params: { title:' MyBike - Wix'}}">
+                    <router-link
+                      :to="{
+                        name: 'mybikewix',
+                        params: { title: ' MyBike - Wix' },
+                      }"
+                    >
                       <span class="voir-plus-txt">Voir plus</span>
                     </router-link>
                   </span>
@@ -64,7 +69,12 @@
                   <span class="card-text-name">Oh My Food!</span>
                   <span class="details">Site Internet / HTML & SCSS</span>
                   <span class="voir-plus">
-                      <router-link :to="{ name: 'ohmyfood', params: { title: 'Oh My Food !' }}">
+                    <router-link
+                      :to="{
+                        name: 'ohmyfood',
+                        params: { title: 'Oh My Food !' },
+                      }"
+                    >
                       <span class="voir-plus-txt">Voir plus</span>
                     </router-link>
                   </span>
@@ -97,7 +107,8 @@
                     >Site e-commerce / HTML, SCSS et JS</span
                   >
                   <span class="voir-plus">
-                    <router-link :to="{ name: 'orinoco', params: { title: 'Orinoco' }}"
+                    <router-link
+                      :to="{ name: 'orinoco', params: { title: 'Orinoco' } }"
                     >
                       <span class="voir-plus-txt">Voir plus</span>
                     </router-link>
@@ -131,7 +142,11 @@
                   <span class="card-text-name">Piiquante</span>
                   <span class="details">API / JS</span>
                   <span class="voir-plus">
-                    <router-link :to="{ name: 'piiquante', params: { title: 'Piiquante' }}"
+                    <router-link
+                      :to="{
+                        name: 'piiquante',
+                        params: { title: 'Piiquante' },
+                      }"
                     >
                       <span class="voir-plus-txt">Voir plus</span>
                     </router-link>
@@ -163,7 +178,11 @@
                   <span class="card-text-name">Groupomania</span>
                   <span class="details">Réseau Social d'entreprise / JS</span>
                   <span class="voir-plus">
-                    <router-link :to="{ name: 'groupomania', params: { title: 'Groupomania' }}"
+                    <router-link
+                      :to="{
+                        name: 'groupomania',
+                        params: { title: 'Groupomania' },
+                      }"
                     >
                       <span class="voir-plus-txt">Voir plus</span>
                     </router-link>
@@ -190,10 +209,14 @@
                   <span class="card-text-name">Pochette CD</span>
                   <span class="details">Photoshop</span>
                   <span class="voir-plus">
-                   <router-link :to="{ name: 'pochetteCD', params: { title: 'Pochette CD' }}"
+                    <router-link
+                      :to="{
+                        name: 'pochetteCD',
+                        params: { title: 'Pochette CD' },
+                      }"
                     >
                       <span class="voir-plus-txt">Voir plus</span>
-                   </router-link>
+                    </router-link>
                   </span>
                 </div>
               </div>
@@ -202,8 +225,10 @@
         </div>
       </div>
     </div>
-    <router-link :to="{ name: 'monPortfolio', params: { title: 'Mon Portfolio'}}"
-       class="portfolio-menu">Voir mon portfolio complet
+    <router-link
+      :to="{ name: 'monPortfolio', params: { title: 'Mon Portfolio' } }"
+      class="portfolio-menu"
+      >Voir mon portfolio complet
     </router-link>
   </section>
 </template>
@@ -246,35 +271,42 @@ export default {
     },*/
     filterSelection(el) {
       var div = document.getElementsByClassName(el);
-      var div1 = document.getElementsByClassName('item-web');
-      var div2 = document.getElementsByClassName('item-api');
-      var div3 = document.getElementsByClassName('item-design');
-      if (el == 'item-web') {
+      var div1 = document.getElementsByClassName("item-web");
+      var div2 = document.getElementsByClassName("item-api");
+      var div3 = document.getElementsByClassName("item-design");
+      if (el == "item-web") {
         for (let i = 0; i < div2.length; i++) {
-          div2[i].style.display = div2[i].style.display == "block" ? "none" : "none";
+          div2[i].style.display =
+            div2[i].style.display == "block" ? "none" : "none";
         }
         for (let i = 0; i < div3.length; i++) {
-          div3[i].style.display = div3[i].style.display == "block" ? "none" : "none";
+          div3[i].style.display =
+            div3[i].style.display == "block" ? "none" : "none";
         }
       }
-      if (el == 'item-api') {
+      if (el == "item-api") {
         for (let i = 0; i < div1.length; i++) {
-          div1[i].style.display = div1[i].style.display == "block" ? "none" : "none";
+          div1[i].style.display =
+            div1[i].style.display == "block" ? "none" : "none";
         }
         for (let i = 0; i < div3.length; i++) {
-          div3[i].style.display = div3[i].style.display == "block" ? "none" : "none";
+          div3[i].style.display =
+            div3[i].style.display == "block" ? "none" : "none";
         }
       }
-      if (el == 'item-design') {
+      if (el == "item-design") {
         for (let i = 0; i < div2.length; i++) {
-          div2[i].style.display = div2[i].style.display == "block" ? "none" : "none";
+          div2[i].style.display =
+            div2[i].style.display == "block" ? "none" : "none";
         }
         for (let i = 0; i < div1.length; i++) {
-          div1[i].style.display = div1[i].style.display == "block" ? "none" : "none";
+          div1[i].style.display =
+            div1[i].style.display == "block" ? "none" : "none";
         }
       }
       for (let i = 0; i < div.length; i++) {
-        div[i].style.display = div[i].style.display == "block" ? "none" : "block";
+        div[i].style.display =
+          div[i].style.display == "block" ? "none" : "block";
       }
     },
   },

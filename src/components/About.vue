@@ -18,7 +18,9 @@
           <li class="about-info-list-li">
             <span class="sub-title">Email</span>
             <span class="value">
-              <a href="mailto:beatrice.moulinbeltrame@gmail.com">beatrice.moulinbeltrame@gmail.com</a>
+              <a href="mailto:beatrice.moulinbeltrame@gmail.com"
+                >beatrice.moulinbeltrame@gmail.com</a
+              >
             </span>
           </li>
           <li class="about-info-list-li">
@@ -32,32 +34,43 @@
             <span class="value">14860 Bavent</span>
           </li>
         </ul>
-        <a href="/CV_MoulinBeltrame_Beatrice_Développeur_Web.pdf" download><button>Télecharger mon CV</button></a> 
+        <a href="/CV_MoulinBeltrame_Beatrice_Développeur_Web.pdf" download
+          ><button>Télecharger mon CV</button></a
+        >
       </div>
     </div>
     <div class="about-details">
-    <!-- ABOUT INTRODUCTION -->
+      <!-- ABOUT INTRODUCTION -->
       <div class="about-txt">
         <div class="subtitle">
           <h2><span>Développeuse et passionnée </span></h2>
         </div>
         <div class="about-txt-p">
-          <p>Après plusieurs années dans l'enseignement et la recherche, 
-            j'ai décidé de me reconvertir et d'aller vers un domaine qui me passionne : l'informatique.<br />
-            J'ai toujours aimé développer des programmes, d'abord en turbo pascal puis je me suis mise à la
-            création de sites internet avec HTML et les prémices du CSS. J'ai ensuite découvert Joomla, j'ai ainsi pu apprendre
-            un peu le pHp. <br />
-            Lorsque j'ai décidé de me former, j'ai suivi des cours HTML, CSS, Javascript et sur l'accessibilité Web.<br /><br />
-            Cliquez sur le menu pour avoir un aperçu de mes différentes compétences<br />
+          <p>
+            Après plusieurs années dans l'enseignement et la recherche, j'ai
+            décidé de me reconvertir et d'aller vers un domaine qui me passionne
+            : l'informatique.<br />
+            J'ai toujours aimé développer des programmes, d'abord en turbo
+            pascal puis je me suis mise à la création de sites internet avec
+            HTML et les prémices du CSS. J'ai ensuite découvert Joomla, j'ai
+            ainsi pu apprendre un peu le pHp. <br />
+            Lorsque j'ai décidé de me former, j'ai suivi des cours HTML, CSS,
+            Javascript et sur l'accessibilité Web.<br /><br />
+            Cliquez sur le menu pour avoir un aperçu de mes différentes
+            compétences<br />
           </p>
         </div>
       </div>
       <div>
         <div class="about-menu">
-            <button @click="toggleVisibility('about-technical')">Compétences Techniques</button>
-            <button @click="toggleVisibility('about-softskills')">Soft Skills</button>
-            <button @click="toggleVisibility('about-languages')">Langues</button>
-            <button @click="toggleVisibility('about-divers')">Divers</button>
+          <button @click="toggleVisibility('about-technical')">
+            Compétences Techniques
+          </button>
+          <button @click="toggleVisibility('about-softskills')">
+            Soft Skills
+          </button>
+          <button @click="toggleVisibility('about-languages')">Langues</button>
+          <button @click="toggleVisibility('about-divers')">Divers</button>
         </div>
         <!-- ABOUT TECHNICAL SKILLS -->
         <div id="about-technical" class="about-technical about-skills">
@@ -69,16 +82,24 @@
               <li>
                 <span>HTML, CSS</span>
                 <div class="progress">
-                  <div class="progress-bar" data-percent="90" style="width: 90%;" >
-                      <span>90%</span>
+                  <div
+                    class="progress-bar"
+                    data-percent="90"
+                    style="width: 90%"
+                  >
+                    <span>90%</span>
                   </div>
                 </div>
               </li>
               <li>
                 <span>Javascript</span>
                 <div class="progress">
-                  <div class="progress-bar" data-percent="70" style="width: 70%;" >
-                      <span>70%</span>
+                  <div
+                    class="progress-bar"
+                    data-percent="70"
+                    style="width: 70%"
+                  >
+                    <span>70%</span>
                   </div>
                 </div>
               </li>
@@ -86,15 +107,23 @@
               <li>
                 <span>Vue.js</span>
                 <div class="progress">
-                  <div class="progress-bar" data-percent="75" style="width: 75%;" >
-                      <span>75%</span>
+                  <div
+                    class="progress-bar"
+                    data-percent="75"
+                    style="width: 75%"
+                  >
+                    <span>75%</span>
                   </div>
                 </div>
               </li>
               <li>
                 <span>NodeJs/Express</span>
                 <div class="progress">
-                  <div class="progress-bar" data-percent="85" style="width: 85%;">
+                  <div
+                    class="progress-bar"
+                    data-percent="85"
+                    style="width: 85%"
+                  >
                     <span>85%</span>
                   </div>
                 </div>
@@ -102,7 +131,11 @@
               <li>
                 <span>PostgresSql/Mysql</span>
                 <div class="progress">
-                  <div class="progress-bar" data-percent="65" style="width: 65%;">
+                  <div
+                    class="progress-bar"
+                    data-percent="65"
+                    style="width: 65%"
+                  >
                     <span>65%</span>
                   </div>
                 </div>
@@ -110,32 +143,48 @@
               <li>
                 <span>MySQL, MongoDB</span>
                 <div class="progress">
-                  <div class="progress-bar" data-percent="60" style="width: 60%;" >
-                      <span>60%</span>
+                  <div
+                    class="progress-bar"
+                    data-percent="60"
+                    style="width: 60%"
+                  >
+                    <span>60%</span>
                   </div>
                 </div>
               </li>
               <li>
                 <span>Joomla, Prestashop</span>
                 <div class="progress">
-                  <div class="progress-bar" data-percent="60" style="width: 60%;" >
-                      <span>60%</span>
+                  <div
+                    class="progress-bar"
+                    data-percent="60"
+                    style="width: 60%"
+                  >
+                    <span>60%</span>
                   </div>
                 </div>
               </li>
               <li>
                 <span>Wordpress, Wix, Shopify</span>
                 <div class="progress">
-                  <div class="progress-bar" data-percent="70" style="width: 70%;" >
-                      <span>70%</span>
+                  <div
+                    class="progress-bar"
+                    data-percent="70"
+                    style="width: 70%"
+                  >
+                    <span>70%</span>
                   </div>
                 </div>
               </li>
               <li>
                 <span>Github</span>
                 <div class="progress">
-                  <div class="progress-bar" data-percent="60" style="width: 60%;" >
-                      <span>60%</span>
+                  <div
+                    class="progress-bar"
+                    data-percent="60"
+                    style="width: 60%"
+                  >
+                    <span>60%</span>
                   </div>
                 </div>
               </li>
@@ -152,40 +201,60 @@
               <li>
                 <span>Adaptabilité</span>
                 <div class="progress">
-                  <div class="progress-bar" data-percent="100" style="width: 100%;" >
-                      <span>100%</span>
+                  <div
+                    class="progress-bar"
+                    data-percent="100"
+                    style="width: 100%"
+                  >
+                    <span>100%</span>
                   </div>
                 </div>
               </li>
               <li>
                 <span>Sérieuse</span>
                 <div class="progress">
-                  <div class="progress-bar" data-percent="100" style="width: 100%;" >
-                      <span>100%</span>
+                  <div
+                    class="progress-bar"
+                    data-percent="100"
+                    style="width: 100%"
+                  >
+                    <span>100%</span>
                   </div>
                 </div>
               </li>
               <li>
                 <span>Rigoureuse</span>
                 <div class="progress">
-                  <div class="progress-bar" data-percent="100" style="width: 100%;" >
-                      <span>100%</span>
+                  <div
+                    class="progress-bar"
+                    data-percent="100"
+                    style="width: 100%"
+                  >
+                    <span>100%</span>
                   </div>
                 </div>
               </li>
               <li>
                 <span>Autonome</span>
                 <div class="progress">
-                  <div class="progress-bar" data-percent="100" style="width: 100%;" >
-                      <span>100%</span>
+                  <div
+                    class="progress-bar"
+                    data-percent="100"
+                    style="width: 100%"
+                  >
+                    <span>100%</span>
                   </div>
                 </div>
               </li>
               <li>
                 <span>Pédagogue</span>
                 <div class="progress">
-                  <div class="progress-bar" data-percent="90" style="width: 90%;" >
-                      <span>90%</span>
+                  <div
+                    class="progress-bar"
+                    data-percent="90"
+                    style="width: 90%"
+                  >
+                    <span>90%</span>
                   </div>
                 </div>
               </li>
@@ -202,17 +271,25 @@
               <li>
                 <span>Espagnol</span>
                 <div class="progress">
-                  <div class="progress-bar" data-percent="75" style="width: 75%;" >
-                      <span>75%</span>
+                  <div
+                    class="progress-bar"
+                    data-percent="75"
+                    style="width: 75%"
+                  >
+                    <span>75%</span>
                   </div>
                 </div>
               </li>
               <li>
                 <span>Anglais</span>
                 <div class="progress">
-                  <div class="progress-bar" data-percent="80" style="width: 80%;" >
-                      <span>80%</span>
-                      <p>Bulats niveau 4/C1</p>
+                  <div
+                    class="progress-bar"
+                    data-percent="80"
+                    style="width: 80%"
+                  >
+                    <span>80%</span>
+                    <p>Bulats niveau 4/C1</p>
                   </div>
                 </div>
               </li>
@@ -229,29 +306,41 @@
               <li>
                 <span>Badminton</span>
                 <div class="progress">
-                  <div class="progress-bar" data-percent="70" style="width: 100%;" >
-                  </div>
+                  <div
+                    class="progress-bar"
+                    data-percent="70"
+                    style="width: 100%"
+                  ></div>
                 </div>
               </li>
               <li>
                 <span>Aquagym, Aquatraining</span>
                 <div class="progress">
-                  <div class="progress-bar" data-percent="70" style="width: 100%;" >
-                  </div>
+                  <div
+                    class="progress-bar"
+                    data-percent="70"
+                    style="width: 100%"
+                  ></div>
                 </div>
               </li>
               <li>
                 <span>Loisirs créatifs</span>
                 <div class="progress">
-                  <div class="progress-bar" data-percent="70" style="width: 100%;" >
-                  </div>
+                  <div
+                    class="progress-bar"
+                    data-percent="70"
+                    style="width: 100%"
+                  ></div>
                 </div>
               </li>
               <li>
                 <span>Jeux de plateau</span>
                 <div class="progress">
-                  <div class="progress-bar" data-percent="70" style="width: 100%;" >
-                  </div>
+                  <div
+                    class="progress-bar"
+                    data-percent="70"
+                    style="width: 100%"
+                  ></div>
                 </div>
               </li>
             </ul>

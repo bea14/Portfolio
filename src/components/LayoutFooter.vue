@@ -1,10 +1,14 @@
 <template>
   <footer class="footer">
     <div class="author" author-name="Béatrice Moulin Beltrame">
-      <i class="fas fa-copyright" aria-hidden="true">&nbsp;</i> {{ copyright }} &nbsp;
+      <i class="fas fa-copyright" aria-hidden="true">&nbsp;</i>
+      {{ copyright }} &nbsp;
     </div>
     <div class="contact">
-      Contact : <a href="mailto:beatrice.moulinbeltrame@gmail.com">beatrice.moulinbeltrame@gmail.com</a>
+      Contact :
+      <a href="mailto:beatrice.moulinbeltrame@gmail.com"
+        >beatrice.moulinbeltrame@gmail.com</a
+      >
     </div>
     <div class="mentions">
       <router-link to="/mentionslegales">Mentions legales</router-link>
@@ -23,5 +27,5 @@ export default {
       return `Copyright ${this.authorName} ${currentYear}`;
     },
   },
-}
+};
 </script>
