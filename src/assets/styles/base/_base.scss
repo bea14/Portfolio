@@ -6,11 +6,12 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
   font-size: $font-size-base;
   background-color: $primary-color;
   display: flex;
   flex-direction: column;
+  max-width: 1120px; /*max width for desktop version*/
 }
 
 a {
