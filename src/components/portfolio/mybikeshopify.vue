@@ -51,19 +51,43 @@
       />
       <img
         class="img card-img"
-        src="../../assets/img/portfolio/Shopify/SiteShopify.png"
+        src="../../assets/img/portfolio/Shopify/APropos.png"
         alt="Capture d'ecran site vitrine MyBike sous Shopify"
         width="350px"
       />
       <img
         class="img card-img"
-        src="../../assets/img/portfolio/Shopify/SiteShopify.png"
+        src="../../assets/img/portfolio/Shopify/Boutique.png"
         alt="Capture d'ecran site vitrine MyBike sous Shopify"
         width="350px"
       />
       <img
         class="img card-img"
-        src="../../assets/img/portfolio/Shopify/SiteShopify.png"
+        src="../../assets/img/portfolio/Shopify/Services.png"
+        alt="Capture d'ecran site vitrine MyBike sous Shopify"
+        width="350px"
+      />
+      <img
+        class="img card-img"
+        src="../../assets/img/portfolio/Shopify/Contact.png"
+        alt="Capture d'ecran site vitrine MyBike sous Shopify"
+        width="350px"
+      />
+      <img
+        class="img card-img"
+        src="../../assets/img/portfolio/Shopify/Connexion.png"
+        alt="Capture d'ecran site vitrine MyBike sous Shopify"
+        width="350px"
+      />
+      <img
+        class="img card-img"
+        src="../../assets/img/portfolio/Shopify/PageProduit.png"
+        alt="Capture d'ecran site vitrine MyBike sous Shopify"
+        width="350px"
+      />
+      <img
+        class="img card-img"
+        src="../../assets/img/portfolio/Shopify/Panier.png"
         alt="Capture d'ecran site vitrine MyBike sous Shopify"
         width="350px"
       />
