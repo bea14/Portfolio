@@ -407,6 +407,10 @@
         </div>
       </div>
     </div>
+    <div>
+      <a href="https://github.com/bea14" target="_blank"><button>Voir mon gitjhub</button></a>
+      <a href="https://codepen.io/bea14-the-lessful" target="_blank"><button>Voir mon codepen</button></a>
+    </div>
     <section class="returnBack">
       <a style="cursor: pointer" @click="$router.back()">
         &lt; Retour à la page principale
